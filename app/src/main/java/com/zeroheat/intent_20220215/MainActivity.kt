@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
 //           myIntent에 입력한 내용을 첨부
             myIntent.putExtra("message", inputMessage)
+            myIntent.putExtra("name", "하하하")
 
             startActivity(myIntent)
 

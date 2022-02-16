@@ -13,7 +13,9 @@ class ViewMessageActivity : AppCompatActivity() {
 //        이전 화면에서 첨부한 문구 받기("message" 이름표를 붙여서) 첨부한 문구 받기
 
         val message = intent.getStringExtra("message")
+        val meaaaa = intent.getStringExtra("name")
 
         txtMessage.text = message
+        txtMessage.text = meaaaa
     }
 }
